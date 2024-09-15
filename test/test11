@@ -1,0 +1,3 @@
+rinting and string manipulation 
+name = input("Enter your name: )#
+print("Hello", name , welcome to python programming")

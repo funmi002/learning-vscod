@@ -1,3 +1,14 @@
+# Write a for loop using range() to print all numbers from 1 to 100 with it printing 10, 20, 30, 40, 50, 60, 70... 100..
+
+for number in range(1,100,20):
+    print(number)
+
+# write a for loop to print each animal in uppercase.
+animals = ["lion", "dog", "cat", "fish", "bird", "giraffe", "tiger", "horse", "leopard", "antelope", "donkey", "kangaroo"]
+for animal in animals:
+    print(animal.upper)
+
+
 #Dice Roller Simulation
 import random
 dice1 = random.randint(1, 6)
@@ -60,4 +71,3 @@ team1 = names[:num_players//2]
 team2 = names[num_players//2:]
 print("Team 1:", team1)
 print("Team 2:", team2)
-
